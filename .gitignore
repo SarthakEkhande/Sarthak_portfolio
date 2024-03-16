@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+
+# Debug logs from package managers
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build output directories
+/node_modules
+dist
+dist-ssr
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+
+# Local files and extensions
+*.local
+
+# Editor directories and files (excluding vscode extensions)
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
